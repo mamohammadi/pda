@@ -1,0 +1,25 @@
+3
+a b c
+2
+5
+0,a,@ 0,A
+0,b,@ 0,B
+0,c,@ 1,@
+1,a,A 1,@
+1,b,B 1,@
+1
+1
+aca
+bcb
+abcba
+abcab
+bbacabb
+$
+
+{x={a,b}^* : x= wcw^R for w={a,b}^* }
+Result:
+0 accept
+1 accept
+2 accept
+3 reject
+4 accept
